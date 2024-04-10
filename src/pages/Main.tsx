@@ -11,7 +11,7 @@ const Main = () => {
   return (
     <div>
       <Navbar />
-      <div id="#home">
+      <div id="home">
         <Home />
       </div>
       <div id="aboutus">
@@ -20,7 +20,7 @@ const Main = () => {
       <div id="program">
         <Program />
       </div>
-      <div id="memebership">
+      <div id="membership">
         <Membership />
       </div>
       <div id="testimonial">

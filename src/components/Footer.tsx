@@ -8,8 +8,8 @@ const Footer = () => {
         <div className=" w-full md:w-1/4">
           <h1 className=" font-semibold text-xl pb-4">WellnessVista</h1>
           <p className=" text-sm">
-            Our team of dedicated doctors, each specializing in unique fields
-            such as orthopedics, cardiology, pediatrics, neurology, dermatology,
+            Our team of dedicated Trainers, each specializing in unique fields
+            such as Body Building, Strength Building, Yoga, Fat Loss, Nutrition,
             and more.
           </p>
         </div>
@@ -17,63 +17,63 @@ const Footer = () => {
           <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">About Us</h1>
           <nav className=" flex flex-col gap-2">
             <Link
-              to="about"
+              to="aboutus"
               spy={true}
               smooth={true}
               duration={500}
-              className=" hover:text-hoverColor transition-all cursor-pointer"
+              className=" hover:text-red-400 transition-all cursor-pointer"
             >
               About
             </Link>
             <Link
-              to="services"
+              to="program"
               spy={true}
               smooth={true}
               duration={500}
-              className=" hover:text-hoverColor transition-all cursor-pointer"
+              className=" hover:text-red-400 transition-all cursor-pointer"
             >
-              Services
+              Programs
             </Link>
             <Link
-              to="doctors"
+              to="membership"
               spy={true}
               smooth={true}
               duration={500}
-              className=" hover:text-hoverColor transition-all cursor-pointer"
+              className=" hover:text-red-400 transition-all cursor-pointer"
             >
-              Doctors
+              Membership
             </Link>
           </nav>
         </div>
         <div>
-          <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Services</h1>
+          <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Program</h1>
           <nav className=" flex flex-col gap-2">
             <Link
-              to="services"
+              to="program"
               spy={true}
               smooth={true}
               duration={500}
-              className=" hover:text-hoverColor transition-all cursor-pointer"
+              className=" hover:text-red-400 transition-all cursor-pointer"
             >
-              Lab Test
+              Body Building
             </Link>
             <Link
-              to="services"
+              to="program"
               spy={true}
               smooth={true}
               duration={500}
-              className=" hover:text-hoverColor transition-all cursor-pointer"
+              className=" hover:text-red-400 transition-all cursor-pointer"
             >
-              Health Check
+              Strength Training
             </Link>
             <Link
-              to="services"
+              to="program"
               spy={true}
               smooth={true}
               duration={500}
-              className=" hover:text-hoverColor transition-all cursor-pointer"
+              className=" hover:text-red-400 transition-all cursor-pointer"
             >
-              Heart Health
+              Yoga
             </Link>
           </nav>
         </div>

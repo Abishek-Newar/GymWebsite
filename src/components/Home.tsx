@@ -2,9 +2,9 @@ import main from "../assets/main.png"
 
 const Home = () => {
   return (
-    <div className="h-screen bg-gradient-to-tr from-[#333238]  to-[#1E1E26] grid grid-cols-2">
+    <div className="h-screen w-screen bg-gradient-to-tr from-[#333238]  to-[#1E1E26]  md:grid md:grid-cols-2">
         <div className="w-full h-full flex flex-col justify-center items-center ">
-            <div className="w-[56rem] ">
+            <div className="w-full md:w-[56rem] ">
             <h1 className="text-8xl font-bold mb-5 text-white uppercase ">GET healthy body with the perfect exercises</h1>
             <p className="text-xl text-white mb-6 ">we are always there to help you to make a healthy body and mind through the power of fitness</p>
             <button className="bg-[#FE1E2E] px-10 py-4 rounded-lg  ">Get Started</button>
@@ -20,7 +20,7 @@ const Home = () => {
             </div>
             </div>
         </div>
-        <div  className="w-full h-full  flex justify-center items-end">
+        <div  className="w-full h-full hidden   lg:flex justify-center items-end">
             <img src={main} alt="" />
         </div>
     </div>

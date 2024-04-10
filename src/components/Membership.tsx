@@ -9,9 +9,9 @@ const Membership = () => {
         <div className=''>
             <h1 className='text-center  mb-10 text-6xl font-bold text-white'>Choose The Best Plan</h1>
             <p className='text-center mt-10 mb-16 text-xl text-gray-300'>Choose a plan That's right for growing your team. Simple Pricing & No hidden charges</p>
-            <div className='flex justify-between px-64'>
-            <div className='w-[36rem] h-[600px] flex items-center justify-center ' >
-                <div className='w-[32rem] h-[550px] flex flex-col items-center  rounded-xl bg-[#464646]'>
+            <div className='flex flex-wrap gap-6 md:px-64'>
+            <div className='w-[36rem] flex  items-center justify-center ' >
+                <div className='w-[32rem] h-[550px] flex flex-col   rounded-xl bg-[#464646]'>
                     <Headers  title="Discover"/>
                     <Text dollars="99" />
                     {discovers.map((item)=>(
@@ -19,7 +19,7 @@ const Membership = () => {
                     ))}
                  </div>
                 </div>
-                <div className='w-[36rem] flex flex-col items-center h-[600px] rounded-xl bg-[#FF662D]' >
+                <div className='w-[36rem] flex flex-col  h-[600px] rounded-xl bg-[#FF662D]' >
                 <Headers  title="Enterprise"/>
                     <Text dollars="299" />
                     {Enterprise.map((item)=>(
@@ -27,7 +27,7 @@ const Membership = () => {
                     ))}
                 </div>
                 <div className='w-[36rem] h-[600px] flex items-center justify-center ' >
-                <div className='w-[32rem] flex flex-col items-center h-[550px] rounded-xl bg-[#464646]'>
+                <div className='w-[32rem] flex flex-col  h-[550px] rounded-xl bg-[#464646]'>
                 <Headers  title="Professional"/>
                     <Text dollars="199" />
                     {Professional.map((item)=>(
@@ -45,7 +45,7 @@ interface TExtProps{
     dollars: string
 }
 function Text({dollars}:TExtProps){
-    return <div className='mt-8'>
+    return <div className='mt-8 text-center'>
         <span className='text-6xl font-bold text-white'>${dollars}</span>
         <span className='text-xl text-gray-300 '>/Per Month</span>
     </div>
@@ -62,7 +62,7 @@ interface descProps{
     descrip: string
 }
 function Desc({descrip}:descProps){
-    return <div className='flex gap-3 mt-10'>
+    return <div className='flex gap-3 mt-10 pl-24'>
         <IoCheckmarkDoneSharp className='text-white text-2xl ' />
         <p className='text-xl font-semibold text-gray-300'>{descrip}</p>
     </div>

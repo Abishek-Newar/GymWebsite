@@ -3,7 +3,7 @@ import React from 'react'
 const Testimonial = () => {
   return (
     <div className=' pt-36 pb-36 bg-[#464646]'>
-        <div className='grid grid-cols-2 '>
+        <div className='flex flex-col md:grid md:grid-cols-2 '>
             <div className='flex items-center justify-center'>
                 <div className='w-[40rem]'>
                 <h1 className='text-6xl text-white font-bold mb-10'>What Our  Happy Clients Say About Us</h1>
