@@ -2,10 +2,10 @@ import main from "../assets/main.png"
 
 const Home = () => {
   return (
-    <div className="h-screen w-screen bg-gradient-to-tr from-[#333238]  to-[#1E1E26]  md:grid md:grid-cols-2">
+    <div className="md:h-screen pb-32 w-screen bg-gradient-to-tr from-[#333238]  to-[#1E1E26]  md:grid md:grid-cols-2">
         <div className="w-full h-full flex flex-col justify-center items-center ">
-            <div className="w-full md:w-[56rem] ">
-            <h1 className="text-8xl font-bold mb-5 text-white uppercase ">GET healthy body with the perfect exercises</h1>
+            <div className="w-full pl-10 md:w-[56rem] ">
+            <h1 className="text-5xl mt-20 w-32 md:w-full md:mt-0 md:text-8xl font-bold mb-5 text-white uppercase ">GET healthy body with the perfect exercises</h1>
             <p className="text-xl text-white mb-6 ">we are always there to help you to make a healthy body and mind through the power of fitness</p>
             <button className="bg-[#FE1E2E] px-10 py-4 rounded-lg  ">Get Started</button>
             <div className="flex mt-16">

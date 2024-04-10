@@ -1,4 +1,4 @@
-import React, { ReactElement } from 'react'
+import  { ReactElement } from 'react'
 import { FaDrumSteelpan } from "react-icons/fa6";
 import { GrYoga } from "react-icons/gr";
 import { IoBodySharp } from "react-icons/io5";
@@ -9,7 +9,7 @@ const Program = () => {
         <div className='w-full'>
             <div className='pt-36 h-96 flex flex-col md:grid md:grid-cols-2 '>
                 <h1 className='text-6xl text-white w-full md:w-[50rem] font-bold'>The Best Programs We Offers For You</h1>
-                <p className='text-xl text-gray-300 font-semibold w md:w-[50rem]'>We offer a wide range of comprehensive fitness programs designed to cater to individuals of fitness levels. Our aim to help you achieve specific goals and maximize results</p>
+                <p className='text-xl text-gray-300 font-semibold w-full md:w-[50rem]'>We offer a wide range of comprehensive fitness programs designed to cater to individuals of fitness levels. Our aim to help you achieve specific goals and maximize results</p>
             </div>
             <div className='flex flex-wrap  gap-10'>
                 <ProgramBox colors="#464646" Icon={<FaDrumSteelpan className='text-7xl text-white' />} title="Strength Training" description="Our trainers will design that a progresive workout plans that proper achieve gains strength"/>
