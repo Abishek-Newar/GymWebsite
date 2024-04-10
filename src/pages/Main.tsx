@@ -1,4 +1,5 @@
 import AboutUS from "../components/AboutUS"
+import Footer from "../components/Footer"
 import Home from "../components/Home"
 import Membership from "../components/Membership"
 import Navbar from "../components/Navbar"
@@ -24,6 +25,9 @@ const Main = () => {
       </div>
       <div id="testimonial">
         <Testimonial />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   )
