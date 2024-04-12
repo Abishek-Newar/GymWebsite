@@ -1,7 +1,7 @@
 import express from "express";
 import zod from "zod"
 import cors from "cors"
-import {Contact, BookTrial} from "./data.js"
+import {Contact, BookTrial} from "./db.js"
 
 const app = express();
 app.use(express.json());

@@ -2,13 +2,13 @@ import logo from "../assets/logo.png"
 import { Link } from "react-scroll"
 const Navbar = () => {
   return (
-    <div className="fixed w-full">
+    <div className="fixed w-full z-30">
         <div >
-        <nav className="flex items-center justify-between px-32 py-5  transparent shadow-lg">
+        <nav className="flex items-center justify-between px-10 lg:px-32 py-5  transparent shadow-lg">
         <div>
-            <img src={logo} alt="" width={100} height={100} />
+            <img src={logo} alt="" className="w-[50px] h-[50px]  lg:w-[100px] lg:h-[100px]" />
         </div>
-        <div>
+        <div className="hidden lg:block">
             <div className="flex gap-6 font-bold text-white text-xl">
             <Link
               to="home"

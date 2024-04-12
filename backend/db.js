@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
-
-mongoose.connect("mongodb+srv://Abishek_Newar:Abishek2002@cluster0.kkrveku.mongodb.net/GymWebsite")
+import { DATABASE_URL } from "./data";
+mongoose.connect(DATABASE_URL)
 .then(()=>{
     console.log("mongoose connected")
 })
